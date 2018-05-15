@@ -1,41 +1,26 @@
-.todo-list {
-  
-}
-.todo-list ul{
+.todo-list{
     list-style: none;
     border: 1px solid #eee;
     padding: 0;
     margin: 0;
     background: white;
 }
-.todo-list ul li {
+.todo-list li {
     line-height: 60px;
     border-top: 1px solid #eee;
     color: #5a5a5a;
     position: relative;
 }
-.edit {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: right;
-    background: white;
-}
-.edit input {
-    width: calc(100% - 80px);
-    height: calc(100% - 5px);
-}
-.todo-list ul li time input {
+
+.todo-list li time input {
     display: none;
 }
-.todo-list ul li time {
+.todo-list li time {
     display: inline-block;
     width: 80px;
     text-align: center;
 }
-.todo-list ul li input + label {
+.todo-list li input + label {
     width:40px;
     height:40px;
     border-radius: 50%;
@@ -45,10 +30,10 @@
     vertical-align: middle;
     line-height: 40px;
 }
-.todo-list ul li input:checked + label {
+.todo-list li input:checked + label {
     border:1px solid #bddad5;
 }
-.todo-list ul li input:checked + label:after {
+.todo-list li input:checked + label:after {
     content:'\2713';
     color: #5dc2af;
     font-size: 24px;
@@ -65,10 +50,10 @@
 .delete:hover{
     color: #a55c5c;
 }
-.todo-list ul li:hover .delete {
+.todo-list li:hover .delete {
     display: inline-block;
 }
-.todo-list ul li s {
+.todo-list li s {
     color: #dddddd;
  }
  

@@ -11,7 +11,7 @@ class Title extends Component {
 		return count
 	}
 	render() {
-		console.log(this.props.content_list)
+		// console.log(this.props.content_list)
 		return (
 			<div 
 				style={{display: this.props.content_list.length > 0 ? 'block' : 'none'}}

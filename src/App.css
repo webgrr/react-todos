@@ -1,8 +1,11 @@
-.App {
-
-}
 .todo_content_box {
   width: 60%;
   margin: auto;
   box-shadow: 20px 5px 30px #b7b7b7;
+}
+.todo-title {
+  color: rgba(175, 47, 47, 0.15);
+  font-size: 60px;
+  text-align: center;
+  font-weight: lighter;
 }
