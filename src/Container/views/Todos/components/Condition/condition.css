@@ -1,0 +1,52 @@
+.todo-condition {
+    background: white;
+    color: #b6b6b6;
+    font-weight: lighter;
+    height: 50px;
+    line-height: 50px;
+}
+.todo-condition a {
+    color: #b6b6b6;
+    text-decoration: none;
+}
+.left {
+    float: left;
+    padding-left: 30px;
+}
+.todo-condition .right {
+    position: relative;
+    float: right;
+    padding-right: 30px;
+    z-index: 22222!important;
+}
+.todo-condition .right a:hover {
+    text-decoration: underline;
+}
+.todo-condition ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   position: absolute;
+   left: 0;
+   right: 0;
+   text-align: center;
+   z-index: 222;
+}
+.todo-condition ul li {
+    display: inline;
+    text-align: center;
+    margin: 0 20px;
+}
+.todo-condition ul li span {
+    color: #b6b6b6;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+.todo-condition ul li span:hover {
+    border: 1px solid #ecd0d3;
+}
+.todo-condition ul li span.chosen {
+    border: 1px solid #ecd0d3;
+}

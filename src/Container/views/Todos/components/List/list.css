@@ -1,0 +1,74 @@
+.todo-list {
+  
+}
+.todo-list ul{
+    list-style: none;
+    border: 1px solid #eee;
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+.todo-list ul li {
+    line-height: 60px;
+    border-top: 1px solid #eee;
+    color: #5a5a5a;
+    position: relative;
+}
+.edit {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: right;
+    background: white;
+}
+.edit input {
+    width: calc(100% - 80px);
+    height: calc(100% - 5px);
+}
+.todo-list ul li time input {
+    display: none;
+}
+.todo-list ul li time {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+.todo-list ul li input + label {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border:1px solid #ededed;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+.todo-list ul li input:checked + label {
+    border:1px solid #bddad5;
+}
+.todo-list ul li input:checked + label:after {
+    content:'\2713';
+    color: #5dc2af;
+    font-size: 24px;
+    
+}
+.delete {
+    display: none;
+    float: right;
+    color: #cc9a9a;
+    padding-right: 30px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.delete:hover{
+    color: #a55c5c;
+}
+.todo-list ul li:hover .delete {
+    display: inline-block;
+}
+.todo-list ul li s {
+    color: #dddddd;
+ }
+ 
